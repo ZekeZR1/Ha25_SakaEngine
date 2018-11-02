@@ -1,0 +1,11 @@
+﻿################################################################################
+# この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
+################################################################################
+
+*.opendb
+/ZekeGame/.vs/ZekeGame/v15/ipch/AutoPCH/8a2c309d99840ec
+/ZekeGame/.vs/ZekeGame/v15
+/ZekeGame/ZekeGame/Debug
+/ZekeGame/Debug
+/ZekeGame/x64/Debug
+/ZekeGame/ZekeGame/x64/Debug
