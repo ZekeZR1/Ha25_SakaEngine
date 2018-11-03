@@ -294,6 +294,11 @@
     <Image Include="Assets\modelData\boxTex.png" />
     <ImageContentTask Include="Assets\Sprite\Test.png" />
   </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Assets\effect\Laser01.efk">
+      <FileType>Document</FileType>
+    </CustomBuild>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.targets" />

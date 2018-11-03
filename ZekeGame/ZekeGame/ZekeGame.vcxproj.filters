@@ -495,4 +495,9 @@
       <Filter>ソース ファイル\Game\Assets\sprite</Filter>
     </ImageContentTask>
   </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Assets\effect\Laser01.efk">
+      <Filter>ソース ファイル\Game\Assets\effect</Filter>
+    </CustomBuild>
+  </ItemGroup>
 </Project>

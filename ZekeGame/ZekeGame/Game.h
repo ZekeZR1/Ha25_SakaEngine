@@ -14,7 +14,6 @@ public:
 	void PostRender() override;
 private:
 	SkinModelRender* m_model;
-	SpriteRender* m_sprite;
 	GameCamera* camera = nullptr;
 };
 
