@@ -1,8 +1,11 @@
 #pragma once
 
 #include "CShaderResource.h"
+#include "Effect\CEffectEngine.h"
 
 class CShaderResource;
+class CEffectEngine;
+
 
 class GraphicsEngine
 {
@@ -48,6 +51,13 @@ public:
 	{
 		return m_2dSpaceScreenHeight;
 	}
+	/*!
+	*@brief	エフェクトエンジンの取得。
+	*/
+	CEffectEngine& GetEffectEngine()
+	{
+		return m_effectEngine;
+	}
 
 	ID3D11RenderTargetView* GetTarget() {
 		return m_backBuffer;
@@ -67,10 +77,10 @@ private:
 	ID3D11DepthStencilView* m_depthStencilView = NULL;
 	std::unique_ptr<DirectX::SpriteBatch>	m_spriteBatch;				
 	std::unique_ptr<DirectX::SpriteFont>	m_spriteFont;				
+	CEffectEngine m_effectEngine;
 	int						m_2dSpaceScreenWidth = 1280;				
 	int						m_2dSpaceScreenHeight = 720;
 	int						m_frameBufferWidth = 0;					
 	int						m_frameBufferHeight = 0;
 };
 
-extern GraphicsEngine* g_graphicsEngine;

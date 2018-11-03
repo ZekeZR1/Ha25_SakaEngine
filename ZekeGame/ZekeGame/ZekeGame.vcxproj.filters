@@ -161,12 +161,6 @@
     <ClCompile Include="Engine\graphics\animation\AnimationClip.cpp">
       <Filter>ソース ファイル\Engine\graphics\animation</Filter>
     </ClCompile>
-    <ClCompile Include="Engine\graphics\Effect\CEffectEngine.cpp">
-      <Filter>ソース ファイル\Engine\graphics\effect</Filter>
-    </ClCompile>
-    <ClCompile Include="Engine\graphics\Effect\CEffect.cpp">
-      <Filter>ソース ファイル\Engine\graphics\effect</Filter>
-    </ClCompile>
     <ClCompile Include="Engine\graphics\GPUBuffer\CGPUBuffer.cpp">
       <Filter>ソース ファイル\Engine\graphics\GPUBuffer</Filter>
     </ClCompile>
@@ -275,6 +269,15 @@
     <ClCompile Include="Engine\graphics\SpriteRender.cpp">
       <Filter>ソース ファイル\Engine\graphics\2D</Filter>
     </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\graphics\Effect\CEffectEngine.cpp">
+      <Filter>ソース ファイル\Engine\graphics\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\graphics\Effect\CEffect.cpp">
+      <Filter>ソース ファイル\Engine\graphics\effect</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\character\CharacterController.h">
@@ -360,12 +363,6 @@
     </ClInclude>
     <ClInclude Include="Engine\graphics\animation\Animation.h">
       <Filter>ソース ファイル\Engine\graphics\animation</Filter>
-    </ClInclude>
-    <ClInclude Include="Engine\graphics\Effect\CEffectEngine.h">
-      <Filter>ソース ファイル\Engine\graphics\effect</Filter>
-    </ClInclude>
-    <ClInclude Include="Engine\graphics\Effect\CEffect.h">
-      <Filter>ソース ファイル\Engine\graphics\effect</Filter>
     </ClInclude>
     <ClInclude Include="Engine\graphics\GPUBuffer\CGPUBuffer.h">
       <Filter>ソース ファイル\Engine\graphics\GPUBuffer</Filter>
@@ -474,6 +471,13 @@
     </ClInclude>
     <ClInclude Include="Engine\graphics\SpriteRender.h">
       <Filter>ソース ファイル\Engine\graphics\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h" />
+    <ClInclude Include="Engine\graphics\Effect\CEffectEngine.h">
+      <Filter>ソース ファイル\Engine\graphics\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\graphics\Effect\CEffect.h">
+      <Filter>ソース ファイル\Engine\graphics\effect</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -153,6 +153,7 @@
     </MeshContentTask>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CEffect.cpp" />
     <ClCompile Include="Engine\character\CharacterController.cpp" />
     <ClCompile Include="Engine\Engine.cpp" />
     <ClCompile Include="Engine\EngineStruct.cpp" />
@@ -218,6 +219,7 @@
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CEffect.h" />
     <ClInclude Include="Engine\character\CharacterController.h" />
     <ClInclude Include="Engine\Engine.h" />
     <ClInclude Include="Engine\EngineStruct.h" />
