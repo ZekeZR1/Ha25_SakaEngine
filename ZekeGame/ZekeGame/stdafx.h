@@ -20,4 +20,4 @@
 const float FRAME_BUFFER_W = 1280.0f;				
 const float FRAME_BUFFER_H = 720.0f;				
 static const int MAX_BONE = 512;
-//int MRT_MAX = 8;		//!<MRT‚ÌÅ‘å”B
+//i MRT_MAX = 8;		//!<MRT‚ÌÅ‘å”B

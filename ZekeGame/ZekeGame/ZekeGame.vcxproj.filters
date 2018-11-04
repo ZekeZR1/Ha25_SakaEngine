@@ -484,6 +484,9 @@
     <MeshContentTask Include="Assets\modelData\Test.FBX">
       <Filter>ソース ファイル\Game\Assets\modelData</Filter>
     </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Octane.FBX">
+      <Filter>ソース ファイル\Game\Assets\modelData</Filter>
+    </MeshContentTask>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\modelData\boxTex.png">
